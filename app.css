@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600&display=swap');
+:root{
+--eerie-black: #1E1F21ff;
+--gray-web: #808183ff;
+--maximum-yellow-red: #F2C879ff;
+--papaya-whip: #FFF1D7ff;
+--mango-tango: #F47A39ff;
+}
+html, body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;;
+}
+body{
+    background: var(--eerie-black);
+}
+header{
+    margin: 32px;
+    padding: 32px 32px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header a{
+    text-decoration: none;
+    color:var(--papaya-whip);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 32px;
+
+}
+header a.logo{
+    color: var(--maximum-yellow-red);
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 32px;
+    align-self: flex-start;
+}
+.header-right{
+    align-self: flex-end;
+    margin-right: 32px;
+}
+section#about{
+    margin: 32px 64px;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section#ingredients{
+    margin: 32px 64px;
+    padding: 32px;
+}
+section#preparation{
+    margin: 32px 64px;
+    padding: 32px;
+}
+section#gallery{
+    margin: 32px 64px;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section#about .about-images img#smallpic{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-right: 0;
+    margin-right: 0;
+    right: 100px;
+    top:100px
+}
+section#about img#bigpic{
+    width:400px;
+    height: 400px;
+    border-radius: 50%;
+    padding-right: 0;
+    margin-right: 0;
+    right: 200px;
+} 
+.desc{
+    padding: 16px;
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 64px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.desc2{
+    padding: 16px;
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 64px;
+    margin-right: 64px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+table{
+    width: 100%;
+}
